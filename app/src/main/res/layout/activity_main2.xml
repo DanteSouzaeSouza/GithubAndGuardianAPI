@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Main2Activity">
+
+        <TextView
+            android:id="@+id/main2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Name:"
+            android:textColor="@color/colourPink"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/main2_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Description:"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/main2_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@+id/main2_ownerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_forks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_watchers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_createdDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_createdTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_updatedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_updatedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_pushedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_pushedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main2_homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorOrange"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/main2_html"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textColor="@color/colorBlue"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</ScrollView>
